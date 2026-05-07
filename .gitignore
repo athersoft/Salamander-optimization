@@ -1,0 +1,13 @@
+env
+__pycache__/
+*.pyc
+.venv
+.atl/
+
+# Instaladores/paquetes locales
+Miniconda3-latest-Linux-x86_64.sh
+*Miniconda*.sh
+*Anaconda*.sh
+BD/backups/
+BD/shards/
+*.log
