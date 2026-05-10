@@ -2,6 +2,7 @@
 
 # --- Importaciones de las implementaciones
 
+from .Codes.SOA import iterarSOA
 from .Codes.ALA import iterarALA
 from .Codes.AOA import iterarAOA
 from .Codes.APO import iterarAPO
@@ -44,6 +45,7 @@ from .Codes.TJO import iterarTJO
 # --- Diccionario central de metaheurísticas
 
 metaheuristics = {
+    "SOA": iterarSOA,
     "ALA": iterarALA,
     "AOA": iterarAOA,
     "APO": iterarAPO,
@@ -146,6 +148,7 @@ MH_ARG_MAP = {
     'RSA':   ('maxIter', 'iter', 'dim', 'population', 'best', 'lb0', 'ub0'),
 
     # S
+    'SOA': ('maxIter', 'iter', 'dim', 'population', 'fitness', 'best', 'fo', 'lb0', 'ub0', 'objective_type'),
     'SBOA':  ('maxIter', 'iter', 'dim', 'population', 'fitness', 'best', 'fo'),
     'SCA':   ('maxIter', 'iter', 'population', 'best'),
     'SHO':   ('maxIter', 'iter', 'dim', 'population', 'best', 'fo', 'objective_type'),

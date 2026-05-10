@@ -19,7 +19,8 @@
     "uscp": false,
     "kp": false,
     "mhs": [
-        "SBOA"
+        "SOA",
+        "PSO"
     ],
     "DS_actions": [
         "V3-ELIT"
@@ -251,7 +252,7 @@
         },
         "SCP": {
             "iteraciones": 100,
-            "poblacion": 10,
+            "poblacion": 100,
             "num_experimentos": 1
         },
         "USCP": {
@@ -279,7 +280,7 @@
             "F10CEC2017"
         ],
         "SCP": [
-            "41"
+            "64"
         ],
         "USCP": [
             "u41",
